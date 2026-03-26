@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AgriBid</string>
+    <string name="title_activity_main">AgriBid</string>
+    <string name="package_name">com.agriBid.app</string>
+    <string name="custom_url_scheme">com.agriBid.app</string>
+</resources>

@@ -1,0 +1,23 @@
+<svg width="100%" viewBox="0 0 500 510" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="500" height="500" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!--
+    "a" letterform with a leaf carved inside — like the reference image.
+    The "a" is a bold rounded sans letterform filled solid green.
+    Inside the counter/bowl, a leaf shape is cut out (white negative space),
+    creating the leaf-inside-letter effect.
+  -->
+
+  <g fill="#2DB84B" style="fill:rgb(45, 184, 75);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    <!-- Main "a" shape:
+         Built from the arch (top bar + left arch) + the bowl (right stem + rounded bottom)
+         All as one compound path using even-odd fill to carve the leaf out.
+    -->
+
+    <path fill-rule="evenodd" d="&#10;      M 250,60&#10;      C 150,60 80,130 80,220&#10;      C 80,310 140,370 220,380&#10;      L 220,420&#10;      C 220,440 235,455 255,455&#10;      L 320,455&#10;      C 340,455 355,440 355,420&#10;      L 355,80&#10;      C 355,69 346,60 335,60&#10;      Z&#10;&#10;      M 250,110&#10;      L 310,110&#10;      L 310,230&#10;      C 310,230 310,330 220,330&#10;      C 155,330 130,280 130,225&#10;      C 130,160 178,110 250,110&#10;      Z&#10;&#10;      M 174,240&#10;      C 174,240 185,195 230,195&#10;      C 270,195 295,218 300,250&#10;      C 285,230 260,222 240,228&#10;      C 210,238 200,268 210,290&#10;      C 185,278 170,262 174,240&#10;      Z&#10;    " style="fill:rgb(45, 184, 75);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  </g>
+
+</svg>
