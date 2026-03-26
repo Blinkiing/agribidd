@@ -9,10 +9,5 @@
     "VITE_YOCO_SECRET_KEY",
     "VITE_SUPABASE_URL",
     "VITE_SUPABASE_ANON_KEY"
-  ],
-  "buildCache": {
-    "node_modules": {
-      "paths": ["node_modules"]
-    }
-  }
+  ]
 }
