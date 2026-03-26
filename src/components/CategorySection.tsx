@@ -10,10 +10,10 @@ const CategorySection = () => {
 
   // Solid color palette matching logo design
   const colorPalette = [
-    { bgColor: "#39FF14", bgOpacity: "0.15", borderColor: "#39FF14", textColor: "#1a7e35", icon: "text-emerald-600", lightBg: "#e8ffd9" },
-    { bgColor: "#FF9F1C", bgOpacity: "0.15", borderColor: "#FF9F1C", textColor: "#d97706", icon: "text-orange-600", lightBg: "#fff5e6" },
-    { bgColor: "#FF6B35", bgOpacity: "0.15", borderColor: "#FF6B35", textColor: "#dc2626", icon: "text-red-600", lightBg: "#ffe6d9" },
-    { bgColor: "#0066FF", bgOpacity: "0.15", borderColor: "#0066FF", textColor: "#2563eb", icon: "text-blue-600", lightBg: "#e6f0ff" },
+    { bgColor: "#39FF14", bgOpacity: "0.2", borderColor: "#39FF14", textColor: "#1a7e35", lightBg: "#d4ff99" },
+    { bgColor: "#FF9F1C", bgOpacity: "0.2", borderColor: "#FF9F1C", textColor: "#d97706", lightBg: "#ffd699" },
+    { bgColor: "#FF6B35", bgOpacity: "0.2", borderColor: "#FF6B35", textColor: "#dc2626", lightBg: "#ffc9b3" },
+    { bgColor: "#0066FF", bgOpacity: "0.2", borderColor: "#0066FF", textColor: "#2563eb", lightBg: "#cce5ff" },
   ];
 
   return (
