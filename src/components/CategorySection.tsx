@@ -8,12 +8,12 @@ const CategorySection = () => {
   const navigate = useNavigate();
   const [expanded, setExpanded] = useState<string | null>(null);
 
-  // Solid color palette matching logo design
+  // Professional mature color palette
   const colorPalette = [
-    { bgColor: "#39FF14", bgOpacity: "0.2", borderColor: "#39FF14", textColor: "#1a7e35", lightBg: "#d4ff99" },
-    { bgColor: "#FF9F1C", bgOpacity: "0.2", borderColor: "#FF9F1C", textColor: "#d97706", lightBg: "#ffd699" },
-    { bgColor: "#FF6B35", bgOpacity: "0.2", borderColor: "#FF6B35", textColor: "#dc2626", lightBg: "#ffc9b3" },
-    { bgColor: "#0066FF", bgOpacity: "0.2", borderColor: "#0066FF", textColor: "#2563eb", lightBg: "#cce5ff" },
+    { bgColor: "#0f766e", textColor: "#0f766e", lightBg: "#ccf0ee" },
+    { bgColor: "#b45309", textColor: "#b45309", lightBg: "#fde8d4" },
+    { bgColor: "#7f1d1d", textColor: "#7f1d1d", lightBg: "#fee2e2" },
+    { bgColor: "#1e3a8a", textColor: "#1e3a8a", lightBg: "#dbeafe" },
   ];
 
   return (
@@ -28,8 +28,8 @@ const CategorySection = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-5xl md:text-6xl font-black mb-4 tracking-tight">
-              <span style={{ color: "#39FF14" }}>Browse</span>{" "}
-              <span style={{ color: "#FF9F1C" }}>Categories</span>
+              <span style={{ color: "#0f766e" }}>Browse</span>{" "}
+              <span style={{ color: "#1e3a8a" }}>Categories</span>
             </h2>
             <p className="text-xl text-muted-foreground font-medium max-w-2xl mx-auto">
               From fresh produce to premium butchery — find it all
@@ -52,16 +52,16 @@ const CategorySection = () => {
                 whileHover={{ y: -8 }}
                 className="group relative h-full"
               >
-                {/* Card with solid color fill */}
+                  {/* Card with solid color fill */}
                 <div
                   className="relative h-full rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2"
                   style={{
                     backgroundColor: color.lightBg,
-                    borderColor: color.borderColor,
+                    borderColor: color.bgColor,
                   }}
                 >
                   {/* Top accent bar with solid color */}
-                  <div className="h-1" style={{ backgroundColor: color.borderColor }} />
+                  <div className="h-1" style={{ backgroundColor: color.bgColor }} />
 
                   {/* Card Content */}
                   <button
@@ -92,7 +92,7 @@ const CategorySection = () => {
                         animate={{ rotate: expanded === cat.slug ? 180 : 0 }}
                         className="pt-2"
                       >
-                        <ChevronRight className="w-5 h-5" style={{ color: color.borderColor }} />
+                        <ChevronRight className="w-5 h-5" style={{ color: color.bgColor }} />
                       </motion.div>
                     </div>
                   </button>
@@ -105,7 +105,7 @@ const CategorySection = () => {
                   >
                     <div
                       className="px-6 pb-4 space-y-1 border-t border-current"
-                      style={{ borderColor: color.borderColor, borderOpacity: 0.3 }}
+                      style={{ borderColor: color.bgColor, borderOpacity: 0.3 }}
                     >
                       {cat.subcategories.map((sub) => (
                         <motion.button
@@ -124,7 +124,7 @@ const CategorySection = () => {
                         onClick={() => navigate(`/category/${cat.slug}`)}
                         className="w-full text-sm font-bold rounded-lg py-2.5 px-3 mt-2 transition-all duration-200 text-white"
                         style={{
-                          backgroundColor: color.borderColor,
+                          backgroundColor: color.bgColor,
                         }}
                       >
                         View all →
