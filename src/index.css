@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Fredoka:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -50,8 +50,15 @@
     --auction-hot: 0 80% 55%;
     --auction-warm: 25 90% 55%;
 
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'DM Sans', sans-serif;
+    --font-display: 'Fredoka', 'Poppins', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+
+    /* Logo Colors */
+    --logo-green: #39FF14;
+    --logo-black: #000000;
+    --logo-red: #FF6B35;
+    --logo-orange: #FF9F1C;
+    --logo-blue: #0066FF;
 
     --shadow-soft: 0 2px 20px -4px hsl(150 30% 10% / 0.08);
     --shadow-card: 0 4px 30px -8px hsl(150 30% 10% / 0.1);
